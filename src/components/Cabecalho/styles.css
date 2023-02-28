@@ -1,4 +1,35 @@
 .container-cabecalho {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.container-cabecalho .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+.cabecalho nav {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho nav a {
+    text-decoration: none; 
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho nav a:link, .cabecalho nav a:visited {
+    color: var(--secondary-color);
 }

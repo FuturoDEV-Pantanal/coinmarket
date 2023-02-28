@@ -3,7 +3,7 @@ import './styles.css';
 export default function Cabecalho() {
   return (
     <header className="container-cabecalho">
-        <span>
+        <span className='logo'>
             Coin Market
         </span>
         <nav>
