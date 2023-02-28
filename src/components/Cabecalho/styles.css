@@ -1,0 +1,4 @@
+.container-cabecalho {
+    display: flex;
+    flex-direction: row;
+}
