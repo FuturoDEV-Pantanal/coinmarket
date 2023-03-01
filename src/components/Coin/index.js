@@ -1,6 +1,7 @@
 import './styles.css';
 
-export default function Coin( { id, nome, preco, variacao, sapato } ) {
+// props 
+export default function Coin( { id, nome, preco, variacao } ) {
     // console.log(props);
     // const { nome, preco } = props;  // destructuring
   return (
