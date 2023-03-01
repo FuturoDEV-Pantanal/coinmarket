@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import './styles.css';
 
 // props 
-export default function Coin( { id, nome, preco, variacao } ) {
+function Coin( { id, nome, preco, variacao } ) {
     // console.log(props);
     // const { nome, preco } = props;  // destructuring
   return (
@@ -13,3 +14,12 @@ export default function Coin( { id, nome, preco, variacao } ) {
     </tr>
   )
 }
+
+Coin.propTypes = {
+  id: PropTypes.number.isRequired,
+  nome: PropTypes.string.isRequired,
+  preco: PropTypes.number.isRequired,
+  variacao: PropTypes.number.isRequired
+}
+
+export default Coin;
