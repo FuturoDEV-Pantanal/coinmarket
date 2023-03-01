@@ -2,6 +2,6 @@ import './styles.css';
 
 export default function Usuarios() {
   return (
-    <div>componente de pagina de usuarios</div>
+    <h1 className='titulo-usuarios'>componente de pagina de usuarios</h1>
   )
 }

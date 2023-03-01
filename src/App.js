@@ -19,7 +19,7 @@ function App() {
           <Route path="usuarios" element= { <Usuarios /> } />
           <Route path="relatorios" element= { <Relatorios /> } />         
         </Routes>
-        
+
         <Rodape />
       </div>
     </BrowserRouter>
