@@ -13,7 +13,7 @@
     letter-spacing: 8px;
 }
 
-.cabecalho nav {
+.container-cabecalho nav {
     font-size: 1.1rem;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.cabecalho nav a {
+.container-cabecalho nav a {
     text-decoration: none; 
     margin: 0px 15px;
     display: flex;
@@ -30,6 +30,6 @@
     justify-content: space-between;
 }
 
-.cabecalho nav a:link, .cabecalho nav a:visited {
+.container-cabecalho nav a:link, .container-cabecalho nav a:visited {
     color: var(--secondary-color);
 }
